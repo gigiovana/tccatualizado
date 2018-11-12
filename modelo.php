@@ -23,85 +23,13 @@
   <!-- Custom styles for this template -->
   <link href="css/one-page-wonder.css" rel="stylesheet">
 
-  <script>
-    function allowDrop(ev) {
-        ev.preventDefault();
-    }
-
-    function drag(ev) {
-        ev.dataTransfer.setData("text", ev.target.id);
-    }
-
-    function drop(ev) {
-        ev.preventDefault();
-        var data = ev.dataTransfer.getData("text");
-        ev.target.appendChild(document.getElementById(data));
-    }
-</script>
-
 </head>
 
 <body>
 
-  <!-- Barra de menu -->
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Handport</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="{% url 'index">
-              <i class="fa fa-home" aria-hidden="true"></i>
-              Página inicial
-              <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <i class="fa fa-search" aria-hidden="true"></i>
-                Como Jogar
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{% url 'contato">
-                <i class="fa fa-comments" aria-hidden="true"></i>
-                Contato
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <i class="fa fa-align-left" aria-hidden="true"></i>
-                Sobre
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <i class="fa fa-user-plus" aria-hidden="true"></i>
-                Cadastre-se
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <i class="fa fa-sign-in" aria-hidden="true"></i>
-                Login
-              </a>
-            </li>
-
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Fim da barra de menu -->
+    <?php
+    include("site/menu.php");
+     ?>
 
     <!-- Início do cabeçalho -->
     <header class="masthead text-center text-white">
@@ -144,7 +72,7 @@
                   <div class="bg-light rounded border p-3 text-center">
                     <h2 class="">Palavras</h2>
 
-                    <span class="btn btn-light m-1" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">Sorrir</span>
+                    <span class="btn btn-light m-1">Sorrir</span>
                     <span class="btn btn-light m-1">Inteligente</span>
                     <span class="btn btn-light m-1">Partir</span>
                     <span class="btn btn-light m-1">Dormir</span>
@@ -170,9 +98,9 @@
                   <div class="bg-light rounded border p-3 text-center">
                     <h2 class="">Verbos</h2>
 
-                    <span class="btn btn-light m-1"></span>
-                    <span class="btn btn-light m-1"></span>
-                    <span class="btn btn-light m-1"></span>
+                    <span class="btn btn-light m-1">Caminhar</span>
+                    <span class="btn btn-light m-1">Caminhar</span>
+                    <span class="btn btn-light m-1">Caminhar</span>
                     <span class="btn btn-light m-1">Caminhar</span>
                     <br>
                     <span class="btn btn-light m-1">Caminhar</span>
@@ -197,7 +125,7 @@
                     <span class="btn btn-light m-1">Caminhar</span>
                   </div>
                 </div>
-                
+
 
               </div>
 

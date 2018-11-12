@@ -11,17 +11,17 @@
   <title>Handport - Questão 1</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="../css/bootstrap.css" rel="stylesheet">
 
   <!-- Importar o Font awesome -->
-  <link href="css/font-awesome.css" rel="stylesheet">
+  <link href="../css/font-awesome.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/one-page-wonder.css" rel="stylesheet">
+  <link href="../css/one-page-wonder.css" rel="stylesheet">
 
 </head>
 
@@ -209,9 +209,9 @@
 
 
     <!-- Bootstrap core JavaScript -->
-    <script src="js/jquery.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.js"></script>
 
     <script type="text/javascript">
     $(document).ready(function() {
