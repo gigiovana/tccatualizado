@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Handport - Questão 1</title>
+  <title>Handport - Modelo</title>
 
   <!-- Bootstrap core CSS -->
   <link href="../css/bootstrap.css" rel="stylesheet">
@@ -35,7 +35,7 @@
     <header class="masthead text-center text-white">
       <div class="masthead-content">
         <div class="container">
-          <h1 class="masthead-heading mt-3 mb-0">Questão 1</h1>
+          <h1 class="masthead-heading mt-3 mb-0">Modelo</h1>
           <!-- <h2 class="masthead-subheading mb-0">Algum texto introdutório pra essa questão! Se não quiser, comente esta linha</h2> -->
         </div>
       </div>
@@ -59,9 +59,9 @@
           </div>
           <div class="col-lg-6">
             <div class="p-3">
-              <h2>Questão 1</h2>
+              <h2>Modelo</h2>
               <!-- <p class="lead">Aqui vai o conteúdo da sua questão. Seguem alguns exemplos de código...</p> -->
-              <p class="lead">Selecione a imagem que corresponde a um <mark>verbo:</mark> <img src="img/verbo.png" alt=""></p>
+              <p class="lead">Separe as palavras de acordo com as suas classes gramaticais:</p>
 
 
 
@@ -70,39 +70,66 @@
                 <div class="col-lg">
 
                   <div class="bg-light rounded border p-3 text-center">
-                    <h2 class="">Imagens</h2>
+                    <h2 class="">Palavras</h2>
 
-                    <span class="btn btn-light m-2">
-                      <img src="../img/garota.png" class="rounded" width="200" height="200"> <br>
-                      <input type="radio" name="questao1" id="q1a" value="a">
-                      <label for="q1a">A)Menina</label><br>
-                    </span>
-
-                    <span class="btn btn-light m-2">
-                      <img src="../img/lapis.png" class="rounded" width="200" height="200"> <br>
-                      <input type="radio" name="questao1" id="q1b" value="b">
-                      <label for="q1b">B)Lápis</label><br>
-                    </span>
-
-                    <span class="btn btn-light m-2">
-                      <img src="../img/andar.png" class="rounded" width="200" height="200"> <br>
-                      <input type="radio" name="questao1" id="q1c" value="c">
-                      <label for="q1c">C)Andar</label><br>
-                    </span>
-
-                    <span class="btn btn-light m-2">
-                      <img src="../img/sol.png" class="rounded" width="200" height="200"> <br>
-                      <input type="radio" name="questao1" id="q1d" value="d">
-                      <label for="q1d">D)Sol</label><br>
-                    </span>
+                    <span class="btn btn-light m-1">Sorrir</span>
+                    <span class="btn btn-light m-1">Inteligente</span>
+                    <span class="btn btn-light m-1">Partir</span>
+                    <span class="btn btn-light m-1">Dormir</span>
+                    <br>
+                    <span class="btn btn-light m-1">Estudar</span>
+                    <span class="btn btn-light m-1">Brincar</span>
+                    <span class="btn btn-light m-1">Estudioso</span>
+                    <span class="btn btn-light m-1">Carismático</span>
+                    <br>
+                    <span class="btn btn-light m-1">Esforçado</span>
+                    <span class="btn btn-light m-1">Engraçado</span>
+                    <span class="btn btn-light m-1">Feliz</span>
+                    <span class="btn btn-light m-1">Comer</span>
                   </div>
 
                 </div>
 
               </div>
+
+              <div class="row mt-3">
+
+                <div class="col-lg">
+                  <div class="bg-light rounded border p-3 text-center">
+                    <h2 class="">Verbos</h2>
+
+                    <span class="btn btn-light m-1">Caminhar</span>
+                    <span class="btn btn-light m-1">Caminhar</span>
+                    <span class="btn btn-light m-1">Caminhar</span>
+                    <span class="btn btn-light m-1">Caminhar</span>
+                    <br>
+                    <span class="btn btn-light m-1">Caminhar</span>
+                    <span class="btn btn-light m-1">Caminhar</span>
+                    <span class="btn btn-light m-1">Caminhar</span>
+                    <span class="btn btn-light m-1">Caminhar</span>
+                  </div>
+                </div>
+
+                <div class="col-lg">
+                  <div class="bg-light rounded border p-3 text-center">
+                    <h2 class="">Adjetivos</h2>
+
+                    <span class="btn btn-light m-1">Caminhar</span>
+                    <span class="btn btn-light m-1">Caminhar</span>
+                    <span class="btn btn-light m-1">Caminhar</span>
+                    <span class="btn btn-light m-1">Caminhar</span>
+                    <br>
+                    <span class="btn btn-light m-1">Caminhar</span>
+                    <span class="btn btn-light m-1">Caminhar</span>
+                    <span class="btn btn-light m-1">Caminhar</span>
+                    <span class="btn btn-light m-1">Caminhar</span>
+                  </div>
+                </div>
+
+
               </div>
 
-
+            </div>
 
             <div class="p-3 text-right">
               <button type="button" name="button" class="btn btn-success btn-lg px-3">

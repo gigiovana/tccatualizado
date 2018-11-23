@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Handport - Questão 1</title>
+  <title>Handport - Questão 3</title>
 
   <!-- Bootstrap core CSS -->
   <link href="../css/bootstrap.css" rel="stylesheet">
@@ -35,7 +35,7 @@
     <header class="masthead text-center text-white">
       <div class="masthead-content">
         <div class="container">
-          <h1 class="masthead-heading mt-3 mb-0">Questão 1</h1>
+          <h1 class="masthead-heading mt-3 mb-0">Questão 3</h1>
           <!-- <h2 class="masthead-subheading mb-0">Algum texto introdutório pra essa questão! Se não quiser, comente esta linha</h2> -->
         </div>
       </div>
@@ -59,9 +59,9 @@
           </div>
           <div class="col-lg-6">
             <div class="p-3">
-              <h2>Questão 1</h2>
+              <h2>Questão 3</h2>
               <!-- <p class="lead">Aqui vai o conteúdo da sua questão. Seguem alguns exemplos de código...</p> -->
-              <p class="lead">Selecione a imagem que corresponde a um <mark>verbo:</mark> <img src="img/verbo.png" alt=""></p>
+              <p class="lead">Conjugue o verbo <mark>jogar no presente:</mark></p>
 
 
 
@@ -70,39 +70,32 @@
                 <div class="col-lg">
 
                   <div class="bg-light rounded border p-3 text-center">
-                    <h2 class="">Imagens</h2>
+                    <!-- <h2 class="">Palavras</h2> -->
 
-                    <span class="btn btn-light m-2">
-                      <img src="../img/garota.png" class="rounded" width="200" height="200"> <br>
-                      <input type="radio" name="questao1" id="q1a" value="a">
-                      <label for="q1a">A)Menina</label><br>
-                    </span>
+                    <form class="a">
+                      <p font-size="20px"> A) João <input id="f1" class="campof1" placeholder="sua reposta"> volei de areia. (JOGAR)</p>
+                    </form>
 
-                    <span class="btn btn-light m-2">
-                      <img src="../img/lapis.png" class="rounded" width="200" height="200"> <br>
-                      <input type="radio" name="questao1" id="q1b" value="b">
-                      <label for="q1b">B)Lápis</label><br>
-                    </span>
+                    <form class="b">
+                      <label> B) Maria e João <input id="f2" class="campof2" placeholder="sua reposta"> volei de areia. (JOGAR) </label>
+                    </form>
 
-                    <span class="btn btn-light m-2">
-                      <img src="../img/andar.png" class="rounded" width="200" height="200"> <br>
-                      <input type="radio" name="questao1" id="q1c" value="c">
-                      <label for="q1c">C)Andar</label><br>
-                    </span>
+                    <form class="c" >
+                      <label> C) Eu <input id="f3" class="campof3" placeholder="sua reposta"> volei de areia. (JOGAR) </label>
+                    </form>
 
-                    <span class="btn btn-light m-2">
-                      <img src="../img/sol.png" class="rounded" width="200" height="200"> <br>
-                      <input type="radio" name="questao1" id="q1d" value="d">
-                      <label for="q1d">D)Sol</label><br>
-                    </span>
+                    <form class="d">
+                      <label> D) Eu, Maria e João <input id="f4" class="campof4" placeholder="sua reposta"> volei de areia. (JOGAR)</label>
+                    </form>
+
+
                   </div>
 
                 </div>
 
               </div>
-              </div>
 
-
+            </div>
 
             <div class="p-3 text-right">
               <button type="button" name="button" class="btn btn-success btn-lg px-3">
