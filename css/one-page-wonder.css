@@ -128,3 +128,7 @@ footer.sticky {
 .space-sticky-footer{
   padding-bottom: 150px !important;
 }
+
+.font-130{
+  font-size: 130%;
+}

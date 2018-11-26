@@ -25,6 +25,12 @@
   <!-- Custom styles for this template -->
   <link href="../css/one-page-wonder.css" rel="stylesheet">
 
+  <style media="screen">
+    #container, #container1{
+    height: 350px;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -97,13 +103,13 @@ include ("../site/menu.php");
               <div class="row mt-3">
 
                 <div class="col-lg">
-                  <div class="bg-light rounded border p-3 text-center">
+                  <div class="bg-light rounded border p-3 text-center" id="container">
                     <h2 class="">Verbos</h2>
                   </div>
                 </div>
 
                 <div class="col-lg">
-                  <div class="bg-light rounded border p-3 text-center">
+                  <div class="bg-light rounded border p-3 text-center" id="container1">
                     <h2 class="">Adjetivos</h2>
                     <!-- <span class="btn btn-light m-1">Caminhar</span> -->
 

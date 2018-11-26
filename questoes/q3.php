@@ -23,6 +23,13 @@
   <!-- Custom styles for this template -->
   <link href="../css/one-page-wonder.css" rel="stylesheet">
 
+  <style media="screen">
+    #texto{
+      font-size: 20px;
+      text-align: left;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -69,23 +76,23 @@
 
                 <div class="col-lg">
 
-                  <div class="bg-light rounded border p-3 text-center">
+                  <div class="bg-light rounded border p-3 text-center" id="texto">
                     <!-- <h2 class="">Palavras</h2> -->
 
                     <form class="a">
-                      <p font-size="20px"> A) João <input id="f1" class="campof1" placeholder="sua reposta"> volei de areia. (JOGAR)</p>
+                      <p>A) João <input id="f1" class="campof1" placeholder="sua reposta"> volei de areia. (JOGAR)</p>
                     </form>
 
                     <form class="b">
-                      <label> B) Maria e João <input id="f2" class="campof2" placeholder="sua reposta"> volei de areia. (JOGAR) </label>
+                      <label>B) Maria e João <input id="f2" class="campof2" placeholder="sua reposta"> volei de areia. (JOGAR) </label>
                     </form>
 
                     <form class="c" >
-                      <label> C) Eu <input id="f3" class="campof3" placeholder="sua reposta"> volei de areia. (JOGAR) </label>
+                      <label>C) Eu <input id="f3" class="campof3" placeholder="sua reposta"> volei de areia. (JOGAR) </label>
                     </form>
 
                     <form class="d">
-                      <label> D) Eu, Maria e João <input id="f4" class="campof4" placeholder="sua reposta"> volei de areia. (JOGAR)</label>
+                      <label>D) Eu, Maria e João <input id="f4" class="campof4" placeholder="sua reposta"> volei de areia. (JOGAR)</label>
                     </form>
 
 
