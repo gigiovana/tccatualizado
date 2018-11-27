@@ -71,7 +71,7 @@
 
                   <div class="bg-light rounded border p-4 text-center">
                     <div class="container">
-
+                      <label class="font-130">A)</label>
                       <select class="btn btn-primary mx-2 font-130" name="">
                         <option value="">Selecione</option>
                         <option value="">Selecione</option>
@@ -96,7 +96,7 @@
                     <br>
 
                     <div class="container">
-
+                    <label class="font-130">B)</label>
                       <select class="btn btn-primary mx-2 font-130" name="">
                         <option value="">Selecione</option>
                         <option value="">Selecione</option>
@@ -121,7 +121,7 @@
                     <br>
 
                     <div class="container">
-
+                    <label class="font-130">C)</label>
                       <select class="btn btn-primary mx-2 font-130" name="">
                         <option value="">Selecione</option>
                         <option value="">Selecione</option>
@@ -145,6 +145,7 @@
                     </div>
                     <br>
 
+                    <label class="font-130">D)</label>
                     <select class="btn btn-primary mx-2 font-130" name="">
                       <option value="">Selecione</option>
                       <option value="">Selecione</option>
@@ -166,7 +167,7 @@
                       <option value="">Selecione</option>
                     </select>
                   </div>
-                  
+
                   </div>
               </div>
             </div>
