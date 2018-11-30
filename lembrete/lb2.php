@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Handport - Modelo</title>
+  <title>Handport - Lembrete</title>
 
   <!-- Bootstrap core CSS -->
   <link href="../css/bootstrap.css" rel="stylesheet">
@@ -35,7 +35,7 @@
     <header class="masthead text-center text-white">
       <div class="masthead-content">
         <div class="container">
-          <h1 class="masthead-heading mt-3 mb-0">Modelo</h1>
+          <h1 class="masthead-heading mt-3 mb-0">Modelo Lembrete</h1>
           <!-- <h2 class="masthead-subheading mb-0">Algum texto introdutório pra essa questão! Se não quiser, comente esta linha</h2> -->
         </div>
       </div>
@@ -50,18 +50,18 @@
     <section>
       <div class="container-fluid py-4" >
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-5">
             <div class="p-3 text-center">
               <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Uhy3gtZoeOM" allowfullscreen></iframe>
               </div>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-7">
             <div class="p-3">
-              <h2>Modelo</h2>
+              <h2>Modelo Lembrete</h2>
               <!-- <p class="lead">Aqui vai o conteúdo da sua questão. Seguem alguns exemplos de código...</p> -->
-              <p class="lead">Ordene as frases, colocando na ordem: o elemento que realiza a ação, em seguida, o verbo e depois seu complemento.</p>
+              <!-- <p class="lead">Separe as palavras de acordo com as suas classes gramaticais:</p> -->
 
 
 
@@ -70,28 +70,28 @@
                 <div class="col-lg">
 
                   <div class="bg-light rounded border p-3 text-center">
-                    <br>
-                    <br>
-                    <span id="letra">A)</span>
-                    <span class="q1a border rounded p-2 m-2" draggable="true" ondragstart="drag(event)" id="caixa1" width="88" height="31" >A bola</span>
-                    <span class="q1a border rounded p-2 m-2" draggable="true" ondragstart="drag(event)" id="caixa2" width="88" height="31" >Jogou</span>
-                    <span class="q1a border rounded p-2 m-2" draggable="true" ondragstart="drag(event)" id="caixa3" width="88" height="31" >O menino</span>
-                    <div class="limparfloat"></div>
-                  </div>
+                    <h2 class="">Lembrete Questão 2</h2>
+
+                    <h2> Verbos:  <img src="../img/verbo.png" alt="">  </h1>
+                  <br>
+                  <p class="texto"> Além de expressar ações, o verbo em sua forma infinitiva, possui como terminação: ar - er - ir. <br> </p>
 
                   <br>
+                  <br>
 
-                  <div class="resp1">
-                    <div class="r1 q1a border rounded p-4 m-3 float-left w-25" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
-                    <div class="r1 q1a border rounded p-4 m-3 float-left w-25" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
-                    <div class="r1 q1a border rounded p-4 m-3 float-left w-25" ondrop="drop(event)" ondragover="allowDrop(event)">  </div>
-                    <div class="limparfloat"></div>
+                  <h2> Adjetivos:  <img src="../img/adjetivo.png" alt="">  </h2>
+                  <br>
+                  <p class="texto"> Adjetivos: palavras que atribuem características aos seres.</p>
+
+<div class="limparfloat"></div>
+</div>
+
                   </div>
 
-                  </div>
                 </div>
 
               </div>
+
 
 
             </div>
@@ -121,9 +121,9 @@
     <!-- Bootstrap core JavaScript -->
     <script src="../js/jquery.js"></script>
     <script src="../js/popper.js"></script>
-    <script src="../js/bootstrap.js"></script>
+    <script src="..js/bootstrap.js"></script>
 
-    <script type="text/javascript">
+    <script type="../text/javascript">
     $(document).ready(function() {
 
       // alert("Ok");
